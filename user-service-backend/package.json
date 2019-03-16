@@ -1,0 +1,19 @@
+{
+  "name": "user-service-backend",
+  "version": "0.1.0",
+  "scripts": {
+    "serve": "node src/server.js",
+    "lint": "eslint --ext .js, src"
+  },
+  "dependencies": {
+    "auth0": "^2.14.0",
+    "body-parser": "^1.18.3",
+    "express": "4.14.0",
+    "json": "^9.0.6",
+    "jsonwebtoken": "^8.5.0",
+    "jwks-rsa": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.1"
+  }
+}

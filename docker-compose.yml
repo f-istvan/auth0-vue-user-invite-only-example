@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  user-service-backend:
+    build: './user-service-backend'
+    ports:
+      - "2000:2000"
+  front-end:
+    build: './front-end'
+    ports:
+      - "8080:8080"
+    links:
+      - user-service-backend
